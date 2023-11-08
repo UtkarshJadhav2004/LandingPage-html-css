@@ -1,0 +1,104 @@
+body{
+  background-color: rgb(80, 86, 7);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white ;
+  margin:0;
+}
+.hdr-bg{
+  background: url('./elephant-1822636.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width : 100%;
+  height:99%;
+  position: fixed;
+  opacity: 0.5;
+  margin: 0;
+  z-index: -1;
+  background-size:cover ;
+
+}
+
+
+.dest1,.dest2{
+  background-color: rgb(145, 125, 10);
+  margin: 0;
+}
+
+img{
+  width:100%;
+}
+
+.dest1,.dest2{
+  width:40%;
+  height: 30%;
+  display: inline-block;
+  border:1px solid black;
+  font-family:cursive;
+}
+h1,h2,p{
+  margin:0;
+}
+
+.hdr{
+  min-height: 120px;
+  padding-top: 3em;
+  padding-left:1.5em;
+  padding-right:1.5em;
+  
+}
+p{
+  margin-block-start: 1.5em;
+  margin-block-end: 1.5em;
+  margin-inline-start: 0px;
+  margin-block-end: 0px;
+}
+.contact{
+  background-color: rgb(200, 185, 11);
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+
+}
+.prise{
+  background-color: rgb(245, 189, 5);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.btn{
+  padding: 1em 2em;
+  color:white;
+  border:1px solid black;
+  margin-top:1em;
+  margin-bottom:1em;
+  display:inline-block;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color:rgb(245, 189, 5);
+}
+.des{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.dest1,.dest2 > h3{
+  margin:0;
+  
+  
+}
+footer{
+  background-color: rgb(241, 247, 164);
+  padding: 30px;
+  margin: 10;
+  color: black;
+
+  
+}
+
+.as{
+  padding: 18.30px;
+}
